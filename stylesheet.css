@@ -1,8 +1,17 @@
-html {
-    background-color: #333;
-    color: whitesmoke;
-    align-content: center;
-}
- body {
+ body.light {
     text-align: center;
+    background-color: whitesmoke;
+    color: black;
  }
+
+ body.dark {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+ }
+
+ /* body {
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+ } */
