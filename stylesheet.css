@@ -1,13 +1,26 @@
- body.light {
+ body {
     text-align: center;
     background-color: whitesmoke;
     color: black;
  }
-
- body.dark {
-    text-align: center;
-    background-color: #121212;
-    color: white;
+/* Stiluri pentru modul dark */
+body.dark-mode {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+/* Stiluri pentru modul light (implicit) */
+body {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+ #toggleDark {
+   position: absolute;
+   font-size: 50px;
+   top: 20px;
+   right: 20px;
+   cursor: pointer;
  }
 
  /* body {
